@@ -137,3 +137,4 @@ C:\Users\vrfer\SNGPC-B\SNGPC-B.Api\obj\Debug\net9.0\refint\SNGPC-B.Api.dll
 C:\Users\vrfer\SNGPC-B\SNGPC-B.Api\obj\Debug\net9.0\SNGPC-B.Api.pdb
 C:\Users\vrfer\SNGPC-B\SNGPC-B.Api\obj\Debug\net9.0\SNGPC-B.Api.genruntimeconfig.cache
 C:\Users\vrfer\SNGPC-B\SNGPC-B.Api\obj\Debug\net9.0\ref\SNGPC-B.Api.dll
+C:\Users\vrfer\SNGPC-B\SNGPC-B.Api\obj\Debug\net9.0\SNGPC-B.Api.sourcelink.json
