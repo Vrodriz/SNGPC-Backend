@@ -1,0 +1,88 @@
+# ============================================
+# ARQUIVOS DE BUILD E COMPILAÇÃO
+# ============================================
+# Pastas geradas durante a compilação do projeto
+bin/
+obj/
+
+# ============================================
+# VISUAL STUDIO / RIDER
+# ============================================
+# Configurações pessoais do Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Configurações do Rider
+.idea/
+*.sln.iml
+
+# ============================================
+# ARQUIVOS DE CONFIGURAÇÃO SENSÍVEIS
+# ============================================
+# Arquivos que podem conter senhas, connection strings, etc.
+appsettings.Development.json
+appsettings.Local.json
+**/appsettings.*.json
+!appsettings.json
+
+# Arquivo de secrets do usuário
+secrets.json
+
+# ============================================
+# LOGS
+# ============================================
+# Arquivos de log gerados pela aplicação
+*.log
+logs/
+
+# ============================================
+# BANCO DE DADOS LOCAL
+# ============================================
+# Arquivos de banco de dados SQLite (caso use)
+*.db
+*.db-shm
+*.db-wal
+
+# ============================================
+# ENTITY FRAMEWORK
+# ============================================
+# Migrations podem ser versionadas, mas arquivos temporários não
+**/Migrations/*.Designer.cs.backup
+
+# ============================================
+# PACOTES NUGET
+# ============================================
+# Pacotes NuGet não devem ser versionados
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# ============================================
+# ARQUIVOS TEMPORÁRIOS
+# ============================================
+# Arquivos temporários do sistema
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# ============================================
+# PUBLISH
+# ============================================
+# Arquivos gerados durante publicação
+PublishProfiles/
+*.pubxml
+*.pubxml.user
+publish/
+
+# ============================================
+# NODE (caso use frontend)
+# ============================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
